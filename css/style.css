@@ -2215,12 +2215,14 @@ footer {
     flex: 0 0 33.333%;
     max-width: 33.333%;
     text-align: center;
+    float: left;
 }
 
 .ourfounders_info ul li a {
     display: block;
     text-decoration: none;
     color: #828287;
+    float: left;
 }
 
 .ourfounders_info ul li .ourfounders_img {
@@ -2552,6 +2554,20 @@ footer {
 
 .people_list ul li .people_listview:hover h5, .people_list ul li .people_listview:hover p {
     color: #fff;
+}
+
+@media (max-width:786px)
+{
+    .hiddenPerson{
+        display: none;
+    }
+}
+
+@media (max-width:568px)
+{
+    .hiddenPerson{
+        display: none;
+    }
 }
 
 .peoplebanner_info {
