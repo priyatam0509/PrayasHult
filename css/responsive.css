@@ -1345,10 +1345,14 @@
     .peopleaboutninjacart_list .slick-arrow.slick-prev {
         left: 50%;
         margin: 0 0 0 -60px;
+        position:absolute;
+        top:240px;
     }
     .peopleaboutninjacart_list .slick-arrow.slick-next {
         right: 50%;
         margin: 0 -60px 0 0;
+        position:absolute;
+        top:240px;
     }
     .aboutbanner_list {
         margin: 30px 0 0 0;
