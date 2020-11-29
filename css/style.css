@@ -2585,8 +2585,8 @@ footer {
     .hiddenPerson{
         display: none;
     }
-    .ourfounders_info .container_info {
-        max-width: 200px;
+    .ourfounders_info {
+        display: none;
     }
 }
 
