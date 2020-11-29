@@ -2567,7 +2567,7 @@ footer {
     }
    
 }
-@media(max-width:300px){
+@media(max-width:200px){
     .ourfounders_info .ourfounders_list{
         max-width: 200px;
     }
