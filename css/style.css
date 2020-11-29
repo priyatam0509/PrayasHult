@@ -2584,6 +2584,13 @@ footer {
     }
 }
 
+@media (max-width:300px)
+{
+    .ourfounders_info .ourfounders_list{
+        max-width: 200px;
+    }
+}
+
 .peoplebanner_info {
     width: 100%;
     padding: 40px 0 0 0;
