@@ -2565,24 +2565,39 @@ footer {
     .peopleaboutninjacart_listinner{
         position: relative;
     }
+<<<<<<< HEAD
    
 }
 @media(max-width:300px){
     .ourfounders_info .ourfounders_list{
         max-width: 200px;
+=======
+    .ourfounders_info .container_info {
+        max-width: 400px;
+>>>>>>> 4e1939a5357146996251cbfa297cd9f32142ed2d
     }
 }
-
 
 @media (max-width:568px)
 {
     .hiddenPerson{
         display: none;
     }
-    .ourfounders_info .ourfounders_list{
-        max-width: 200px;
+    .ourfounders_info .container_info {
+        max-width: 250px;
     }
 }
+
+@media (max-width:480px)
+{
+    .hiddenPerson{
+        display: none;
+    }
+    .ourfounders_info {
+        display: none;
+    }
+}
+
 
 .peoplebanner_info {
     width: 100%;
